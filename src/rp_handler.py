@@ -2,6 +2,7 @@ import sys
 import os
 
 import runpod
+import ObjectMeasurer
 
 def hello_world(greeting):
     if not isinstance(greeting, str):
